@@ -14,6 +14,7 @@ export default class HomePage extends React.Component {
           {projects.map(project => (
             <ProjectPreview
               key={project.id}
+              url={project.id}
               name={project.name}
               description={project.description} />
           ))}

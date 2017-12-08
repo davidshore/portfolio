@@ -4,6 +4,7 @@ import Navigation from "components/navigation"
 
 import Home from "./home"
 import About from "./about"
+import Project from "./project"
 
 class MainPage extends React.Component {
 
@@ -16,6 +17,7 @@ class MainPage extends React.Component {
           <div className="page">
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
+            <Route path="/projects/:id" component={Project} />
           </div>
         </div>
       </BrowserRouter>
