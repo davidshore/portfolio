@@ -1,0 +1,8 @@
+.HomePage .projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.HomePage .title {
+  padding: 10px;
+}

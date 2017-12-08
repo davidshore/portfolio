@@ -1,0 +1,11 @@
+.Navigation {
+  background: #0055ff;
+  padding: 10px;
+  text-align: center;
+}
+
+.Navigation a {
+  margin: 10px;
+  font-weight: bold;
+  color: #fff;
+}
